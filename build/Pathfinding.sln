@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pathfinding.Lib", "..\source\Pathfinding.Lib\Pathfinding.Lib.vcxproj", "{94E52AAF-B6C6-44B3-AE63-F337D58F3052}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pathfinding.CLI", "..\source\Pathfinding.CLI\Pathfinding.CLI.vcxproj", "{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052} = {94E52AAF-B6C6-44B3-AE63-F337D58F3052}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfindingApp", "..\source\PathfindingApp\PathfindingApp.csproj", "{FCE799C9-036B-4277-AC57-B65981429AD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47} = {15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052} = {94E52AAF-B6C6-44B3-AE63-F337D58F3052}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Debug|x64.ActiveCfg = Debug|x64
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Debug|x64.Build.0 = Debug|x64
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Debug|x86.ActiveCfg = Debug|Win32
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Debug|x86.Build.0 = Debug|Win32
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Release|Any CPU.ActiveCfg = Release|Win32
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Release|x64.ActiveCfg = Release|x64
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Release|x64.Build.0 = Release|x64
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Release|x86.ActiveCfg = Release|Win32
+		{94E52AAF-B6C6-44B3-AE63-F337D58F3052}.Release|x86.Build.0 = Release|Win32
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Debug|x64.ActiveCfg = Debug|x64
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Debug|x64.Build.0 = Debug|x64
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Debug|x86.ActiveCfg = Debug|Win32
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Debug|x86.Build.0 = Debug|Win32
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Release|Any CPU.ActiveCfg = Release|Win32
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Release|x64.ActiveCfg = Release|x64
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Release|x64.Build.0 = Release|x64
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Release|x86.ActiveCfg = Release|Win32
+		{15C21708-9DBF-4E32-BFB4-5B6F3D40AB47}.Release|x86.Build.0 = Release|Win32
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Debug|x86.Build.0 = Debug|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Release|x64.Build.0 = Release|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Release|x86.ActiveCfg = Release|Any CPU
+		{FCE799C9-036B-4277-AC57-B65981429AD4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
