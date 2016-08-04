@@ -3,6 +3,7 @@ Implementation and visualization of various pathfinding algorithms
 
 
 (Sample graph files in the content folder)
+
 1. Click on the "Add Node" button to add a new node
 2. Click on a node to select / deselect it
 3. You can drag the node around
